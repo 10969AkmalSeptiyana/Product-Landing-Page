@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <nav id="nav-bar" class="nav bd-container">
+        <div class="logo">
+          <img
+            src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
+            alt="original trombones logo"
+            id="header-img"
+          />
+        </div>
+        <div class="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li class="nav_item">
+              <a href="#how-it-works" class="nav-link">How It Works</a>
+            </li>
+            <li class="nav_item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="form">
+        <div class="form_container bd-container">
+          <div class="form_title">
+            <h2 class="title-center">Handcrafted, home-made masterpieces</h2>
+          </div>
+
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <div class="form_group">
+              <div class="contact_direction">
+                <input
+                  name="email"
+                  type="email"
+                  id="email"
+                  class="input"
+                  placeholder="Enter your email address"
+                  required
+                />
+              </div>
+
+              <input
+                type="submit"
+                id="submit"
+                value="Get Started"
+                class="btn"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="features section bd-container" id="features">
+        <div class="features_container bd-grid">
+          <div class="features_data">
+            <div>
+              <h2 class="section-title-center">Premium Materials</h2>
+              <p class="features_description">
+                Our trombones use the shiniest brass which is sourced locally.
+                This will increase the longevity of your purchase.
+              </p>
+            </div>
+
+            <div class="features_icon">
+              <i class="bx bxl-firebase"></i>
+            </div>
+          </div>
+
+          <div class="features_data">
+            <div>
+              <h2 class="section-title-center">Fast Shipping</h2>
+              <p class="features_description">
+                We make sure you recieve your trombone as soon as we have
+                finished making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+            </div>
+
+            <div class="features_icon">
+              <i class="bx bxs-car"></i>
+            </div>
+          </div>
+
+          <div class="features_data">
+            <div>
+              <h2 class="section-title-center">Quality Assurances</h2>
+              <p class="features_description">
+                For every purchase you make, we will ensure there are no damages
+                or faults and we will check and test the pitch of your
+                instrument.
+              </p>
+            </div>
+
+            <div class="features_icon">
+              <i class="bx bxs-meteor"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- how it works -->
+      <section class="how-it-works section bd-container" id="how-it-works">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <!-- Pricing -->
+      <section class="pricing section bd-container" id="pricing">
+        <div class="pricing_container bd-grid">
+          <div class="pricing_data">
+            <h3 class="pricing_title">TENOR TROMBONE</h3>
+            <h3>$600</h3>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">SELECT</button>
+          </div>
+
+          <div class="pricing_data">
+            <h3 class="pricing_title">BASS TROMBONE</h3>
+            <h3>$900</h3>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">SELECT</button>
+          </div>
+
+          <div class="pricing_data">
+            <h3 class="pricing_title">VALVE TROMBONE</h3>
+            <h3>$1200</h3>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">SELECT</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer section">
+      <div class="footer_container bd-container bd-grid">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <span>Copyright 2021, Original Trombones</span>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="js/main.js"></script>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
